@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="styles_2.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>My Website</title>
 </head>
 
@@ -100,7 +101,7 @@
       <div class="all-projects">
         <div class="project-item">
           <div class="project-info">
-            <h1>Guitar</h1>
+            <h1 data-aos="fade-right">Guitar</h1>
             <h2>Top Guitarists- Jimi Hendrix, Eric Clapton, Jimmy Page</h2>
             <p>The guitar is a fretted musical instrument that typically has six strings. It is held flat against the
               player's body and played by strumming or plucking the strings with the dominant hand, while simultaneously
@@ -114,7 +115,7 @@
         </div>
         <div class="project-item">
           <div class="project-info">
-            <h1>Piano</h1>
+            <h1 data-aos="fade-left">Piano</h1>
             <h2>Best Piano players- Franz Liszt, Claudio Arrau, Josef Hofmann </h2>
             <p>The piano is an acoustic, stringed musical instrument invented in Italy by Bartolomeo Cristofori around
               the year 1700 (the exact year is uncertain), in which the strings are struck by wooden hammers that are
@@ -128,7 +129,7 @@
         </div>
         <div class="project-item">
           <div class="project-info">
-            <h1>Drums</h1>
+            <h1 data-aos="fade-right">Drums</h1>
             <h2>Top Drummers- John Bonham, Neil Peart, Stewart Copeland</h2>
             <p>The drum is a member of the percussion group of musical instruments. In the Hornbostel-Sachs
               classification system, it is a membranophone. Drums may be played individually, with the player using a
@@ -142,7 +143,7 @@
         </div>
         <div class="project-item">
           <div class="project-info">
-            <h1>Violin</h1>
+            <h1 data-aos="fade-left">Violin</h1>
             <h2>Best Violinists- Nicolo Paganini, Joseph Joachim, Pablo de Sarasate</h2>
             <p>The violin, sometimes known as a fiddle, is a wooden chordophone (string instrument) in the violin
               family. Most violins have a hollow wooden body. It is the smallest and thus highest-pitched instrument
@@ -252,8 +253,6 @@
           </a>
           <div class="card__info">
             <span class="card__category"> The Beatles</span>
-            <h3 class="card__title">Venom</h3>
-            <span class="card__by">by <a href="#" class="card__author" title="author">$AJ10</a></span>
           </div>
         </article>
     
@@ -265,8 +264,6 @@
           </a>
           <div class="card__info">
             <span class="card__category"> Michael jackson</span>
-            <h3 class="card__title">Joker</h3>
-            <span class="card__by">by <a href="#" class="card__author" title="author">$AJ10</a></span>
           </div>
         </article>
 
@@ -277,8 +274,6 @@
           </a>
           <div class="card__info">
             <span class="card__category"> Elvis Presley</span>
-            <h3 class="card__title">Joker</h3>
-            <span class="card__by">by <a href="#" class="card__author" title="author">$AJ10</a></span>
           </div>
         </article>
 
@@ -289,8 +284,6 @@
           </a>
           <div class="card__info">
             <span class="card__category"> Madonna</span>
-            <h3 class="card__title">Joker</h3>
-            <span class="card__by">by <a href="#" class="card__author" title="author">$AJ10</a></span>
           </div>
         </article>
 
@@ -301,8 +294,6 @@
           </a>
           <div class="card__info">
             <span class="card__category"> Mariah Carey</span>
-            <h3 class="card__title">Joker</h3>
-            <span class="card__by">by <a href="#" class="card__author" title="author">$AJ10</a></span>
           </div>
         </article>
 
@@ -313,8 +304,6 @@
           </a>
           <div class="card__info">
             <span class="card__category"> Diana Ross</span>
-            <h3 class="card__title">Joker</h3>
-            <span class="card__by">by <a href="#" class="card__author" title="author">$AJ10</a></span>
           </div>
         </article>
 
@@ -325,8 +314,6 @@
           </a>
           <div class="card__info">
             <span class="card__category"> Elton John</span>
-            <h3 class="card__title">Joker</h3>
-            <span class="card__by">by <a href="#" class="card__author" title="author">$AJ10</a></span>
           </div>
         </article>
 
@@ -337,8 +324,6 @@
           </a>
           <div class="card__info">
             <span class="card__category"> Prince</span>
-            <h3 class="card__title">Joker</h3>
-            <span class="card__by">by <a href="#" class="card__author" title="author">$AJ10</a></span>
           </div>
         </article>
 
@@ -349,8 +334,6 @@
           </a>
           <div class="card__info">
             <span class="card__category"> John Lennon</span>
-            <h3 class="card__title">Joker</h3>
-            <span class="card__by">by <a href="#" class="card__author" title="author">$AJ10</a></span>
           </div>
         </article>
 
@@ -407,5 +390,9 @@
   <!-- End Footer -->
   <script src="./app.js"></script>
 </body>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  // Your JS here!
+  AOS.init();
+</script>
 </html>
