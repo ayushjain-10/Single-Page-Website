@@ -24,7 +24,7 @@
       width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 5rem;
+      grid-gap: 10rem;
       justify-items: center;
   }
   
