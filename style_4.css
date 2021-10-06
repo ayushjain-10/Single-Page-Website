@@ -1,0 +1,33 @@
+
+#cube .swiper{
+    width: 900px;
+    height: 600px;
+}
+#cube .swiper-slide{
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+#cube  body{
+    padding: 100px;
+}
+
+#one{
+    color: rgb(41, 189, 61);
+}
+
+#two{
+    color:rgb(55, 27, 165);
+}
+
+#three{
+    color:khaki;
+}
+
+#four{
+    color: rgb(41, 154, 189);
+}
+
