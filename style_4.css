@@ -1,33 +1,34 @@
-
-#cube .swiper{
-    width: 900px;
-    height: 600px;
-}
-#cube .swiper-slide{
-    background-size:cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
+#cube .swiper {
+  width: 900px;
+  height: 600px;
 }
 
-#cube  body{
-    padding: 100px;
+#cube .swiper-slide {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
 }
 
-#one{
-    color: rgb(41, 189, 61);
+#cube body {
+  padding: 100px;
 }
 
-#two{
-    color:rgb(55, 27, 165);
+#one {
+  color: rgb(41, 189, 61);
 }
 
-#three{
-    color:khaki;
+#two {
+  color: rgb(55, 27, 165);
 }
 
-#four{
-    color: rgb(41, 154, 189);
+#three {
+  color: khaki;
 }
 
+#four {
+  color: rgb(41, 154, 189);
+}
+
+/*# sourceMappingURL=style_4.css.map */
